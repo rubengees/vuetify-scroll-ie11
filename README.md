@@ -1,29 +1,14 @@
 # vuetify-scroll-ie11
 
-## Project setup
+Sample project for a vuetify bug regarding scrolling after a dialog is closed.
+
+To try (in IE11):
+
 ```
 yarn install
+yarn serve
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Click the "Show dialog" button.
+- Click somewhere.
+- Try to scroll.
